@@ -1,0 +1,25 @@
+<html>
+     <head>
+        <title>QQ登录跳转</title>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=srocW7CMkQdkbazSA5kjcxDgFYO1YfMS"></script>
+     </head>
+     
+     <body>
+            <div id="container" style="height: 100%;box-sizing: border-box;"></div> 
+             <script src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+     <script type="text/javascript">
+     
+    var map = new BMap.Map("container");          
+var point = new BMap.Point(117.39, 39.93);  
+map.centerAndZoom(point,15);
+var myGeo = new BMap.Geocoder();       
+myGeo.getPoint("杭州市良渚科技孵化大厦", function(point){      
+          if (point) {      
+              map.centerAndZoom(point, 16);      
+              map.addOverlay(new BMap.Marker(point));      
+          }      
+      }, "杭州市");  
+     </script>
+     </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title></title>
+		<script src="/static/weicity/js/tool/fontAuto.js"></script>
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style_sass.css">
+		<!-- <link rel="stylesheet" type="text/css" href="/static/weicity/css/tools/jquery-ui.css"> -->
+
+	</head>
+	<body style="height: 100%;">
+		<div id="affirm" style="height: 100%;">
+			<div class="fix_top">
+				<div class="strategypage_top top clearFix">
+				<i class="back_orange back" onclick="history.go(-1);"></i>
+					酒店订单提交
+				</div>
+			</div>
+		<div class="affirm_main hotel_affirm">
+			<div class="room_formmessage clearFix">
+				<figure>
+					<!-- <figcaption>西湖度假酒店<em>——温馨大床房</em></figcaption>
+					<div class="clearFix">
+						<div class="left">
+							<span>入住 2017-6-10</span>
+							<span>离店 2017-6-12</span>
+						</div>
+						<span class="left">共2晚</span>
+					</div> -->
+				</figure>
+			</div>
+			<form>
+				<figure class="reserve_message">
+					<ul class="affirm_date_main">
+						<li>
+							<span>房源数量:</span>
+							<label class="select_node">
+							<select name="roomNumber" funnode="mulriple">
+							</select>
+							<i class="more_arrow"></i>
+							</label>
+						</li>
+						<li>
+							<span>入住人数:</span>
+							<label class="select_node">
+							<select name="personNumber" funnode="mulriple">
+							</select>
+							<i class="more_arrow"></i>
+							</label>
+						</li>
+					</ul>
+				</figure>
+				<figure class="connect">
+					<ul>
+						<li>
+							<span>姓&nbsp&nbsp&nbsp名:</span>
+							<input type="text" name="userName" placeholder="姓名" notnull="true">
+						</li>
+						<li>
+							<span>手机号:</span>
+							<input type="text" name="userPhone" placeholder="必填" phone="true">
+						</li>
+						<li>
+							<span>备&nbsp&nbsp&nbsp注:</span>
+							<input type="text" name="orderRemark" placeholder="备注">
+						</li>
+					</ul>
+				</figure>
+				<ul class="choose_item">
+					<li>
+						<input type="checkbox" name="invoiceFlag" id="invoiceFlag" value="1">
+						<label for="invoiceFlag">发票</label>
+					</li>
+				</ul>
+				<!-- <figure class="insurance">
+					<figcaption class="form_title">住宿意外险<span>(免费赠送一份)</span></figcaption>
+					<ul>
+						<li>+住宿意外险</li>
+					</ul>
+				</figure> -->
+				<!-- <span>11</span> -->
+				<p><i class="notice_icon"></i>本订单预订成功后，不支持退款</p>
+				<div class="bottom" style="position: fixed;bottom: 0;z-index: 1000;width: 100%;">
+					<div class="price">
+						<span>订单总额¥<strong postname="orderPrice">0</strong></span>
+						<em>线上支付¥<strong style="font-size:.34rem;" postname="payFee">0</strong></em>
+					</div>
+					<span class="topay_detail">价格明细</span>
+					
+					<input type="submit" name="" value="提交订单" state="cant_click">
+				</div>
+				<div class="pay_detail">
+					<em>在线支付<span class="price">¥<strong></strong></span></em>
+					<ul>
+					</ul>
+				</div>
+			</form>
+		</div>
+		</div>
+		<div class="masking" style="z-index: 800"></div>
+		<script src="/static/weicity/js/tool/zepto.min.js"></script>
+		<!-- <script type="text/javascript" src="/static/weicity/js/tool/jquery.min.js"></script> -->
+		<script type="text/javascript" src="/static/weicity/js/tool/verfication.js"></script>
+		<!-- <script type="text/javascript" src='/static/weicity/js/tool/jquery.form.js'></script> -->
+		<script type="text/javascript" src="/static/weicity/js/public.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/room_putform.js"></script>
+	</body>
+	</html>

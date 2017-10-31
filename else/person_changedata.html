@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<title></title>
+		<script src="../js/tool/fontAuto.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/tools/swiper-3.4.1.min.css"/>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<div class="person_data_change data_changepage">
+			<div class="person_data_change_top top clearFix">
+			<span class="cancleback back">取消</span>
+			设置个人资料
+			<span class="cantsave save">保存</span>
+			</div>
+				<ul class="person_data_change_main">
+					<li class="background_change">
+						<img src="../img/person-page-background.jpg" class="background"/>
+						<div class="person_page_pic">
+							<img src="../img/person-page-pic.png"/>
+							<i class="pic_icon"></i>
+						</div>
+						<i class="set_background">设置背景</i>
+					</li>
+					<li class="clearFix"><span>昵称</span><input type="text"  class="name"/></li>
+					<li class="clearFix">
+						<span>性别</span>
+						<select>
+							  <option value="男">男</option>
+							  <option value="女">女</option>
+							  <option value="保密">保密</option>
+						</select>
+					</li>
+					<li class="clearFix to_city_choose"><span>常住地</span><i>未设置</i></li>
+					<li class="clearFix"><span>签名</span>
+					</li>
+				</ul>
+		</div>
+		<div class="city_choose bottompage">
+			<div class="fix_top fix_from_bottom">
+			<div class="city_choose_top top clearFix">
+			城市选择
+			<span class="cancleback">取消</span>
+			</div>
+			<div class="city_choose_search search">
+			<span><i class="search_icon"></i>搜索目的地</span>
+			</div>
+			<ul class="menu clearFix double_menu">
+					<li class="current">国内</li>
+					<li class="">国外</li>
+					<li class="under_line doubleline"></li>
+			</ul>
+			<div class="city_choose_gps">
+				余杭
+				<span>GPS定位</span>
+			</div>
+			</div>
+			<ul class="city_list currentPage one">
+				<li class="hot partlist" id="热门">
+					<h5>热门</h5>
+					<ul class="clearFix">
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="A">
+					<h5>A</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="B">
+					<h5>B</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="C">
+					<h5>C</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="D">
+					<h5>D</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="E">
+					<h5>E</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="city_list two" style="display: none;">
+				<li class="hot partlist" id="热门2">
+					<h5>热门</h5>
+					<ul class="clearFix">
+						<li>首尔</li>
+						<li>清迈</li>
+						<li>曼谷</li>
+						<li>普吉岛</li>
+						<li>新加坡</li>
+						<li>巴厘岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="A2">
+					<h5>A</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="B2">
+					<h5>B</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="C2">
+					<h5>C</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="D2">
+					<h5>D</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+				<li class="partlist" id="E2">
+					<h5>E</h5>
+					<ul>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+						<li>厦门</li>
+						<li>香港</li>
+						<li>北京</li>
+						<li>三亚</li>
+						<li>上海</li>
+						<li>青岛</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="fix_list_word">
+			</ul>
+		</div>
+	</body>
+	</html>

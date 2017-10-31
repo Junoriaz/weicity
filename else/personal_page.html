@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/tool/fontAuto.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css">
+	</head>
+	<body>
+	<div class="personal_page">
+			<div class="person_page_top clearFix">
+				<i class="back"></i>
+				<div class="person_page_pic">
+				<img src="img/person-page-pic.png"/>
+				<i class="pic_icon"></i>
+				</div>
+				<div class="visit to_rightpage">
+				<strong>今日访问<b>0</b></strong><br>
+				<strong>累计访问<b>0</b></strong>
+				</div>
+				<div class="person_page_data clearFix">
+				<strong>junoriaz</strong>
+				<i class="level2 level"></i>
+				<span>金币&nbsp0</span><br>
+				<em>编辑个性签名，布置你的蚂蜂窝</em>
+				</div>
+				<div class="person_page_attention clearFix  to_rightpage">
+				<strong class="toattention">0<br>关注</strong>
+				<i class="vertical_line"></i>
+				<strong class="tofans">0<br>粉丝</strong>
+				</div>
+				<span class="data_change to_change_data  to_rightpage">修改个人资料</span>
+			</div>
+			<div class="personal_page_main clearFix">
+				<ul class="clearFix menu">
+					<li class="current"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="swiper-container">
+				<div class="swiper-wrapper content clearFix">
+					<div class="swiper-slide list_main currentPage"></div>
+					<div class="swiper-slide list_main currentPage"></div>
+					<div class="swiper-slide list_main currentPage"></div>
+					<div class="swiper-slide list_main currentPage"></div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-scrollbar"></div>
+				</div>
+				<i class="issue_wengweng"></i>
+				<i class="issue_note"></i>
+			</div>
+		</div>
+		<script src="js/tool/zepto.min.js"></script>
+  <script type="text/javascript" src="js/tool/swiper-3.4.1.jquery.min.js"></script>
+  <script type="text/javascript" src="js/public.js"></script>
+  <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // 如果需要滚动条
+    scrollbar: '.swiper-scrollbar',
+  })        
+  </script>
+	</body>
+</html>
