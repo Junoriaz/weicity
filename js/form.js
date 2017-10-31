@@ -150,11 +150,19 @@ var loadObj={
 			}
 		});
 	},
+	tocancle:function(thisNode){
+		var _this=this;
+		postObj.data={orderStatus:'5',orderHotelId:$(thisNode).closest('li').attr('id')};
+		$.get(pathObj.setJsonFun('/static/weicity/json/status.json','/shopHotelOrder/confine/updateOrder.form'),postObj.data);
+	},
 	init:function(){
 		var _this=this;
 		_this.loadAllFun();
 		$(document).on('click','.want_pay',function(){
 			_this.topayFun(this);
+		});
+		$(document).on('click','.cancle',function(){
+			_this.tocancle(this);
 		});
 		_this.menuNode.click(function(){
 			_this.changeListFun(this);
