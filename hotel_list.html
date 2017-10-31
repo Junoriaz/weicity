@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html  style="background: #f3f3f3;">
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<title></title>
+		<!-- <script src="/static/weicity/js/tool/fontAuto.js"></script> -->
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/tool/fontAuto.js"></script>
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style_sass.css"/>
+		<!-- <script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=srocW7CMkQdkbazSA5kjcxDgFYO1YfMS"></script> -->
+	</head>
+	<body class="">
+		<div class="fix_top">
+			<div class="hotel_querypage_top top clearFix">
+				<i class="back_orange back" onclick="history.go(-1);"></i>
+				酒店列表
+				<form  action="" method="" class="search_form">
+					<input class="input_search" type="search" placeholder="输入关键字" name=""/>
+				</form>
+				<a href="javascript:window.location.href=pathObj.setJsonFun('index.html','/hotel/unconfine/index.form');" class="logo_a">
+					<img src="/static/weicity/img/logo_icon.png" class="logo_icon">
+				</a>
+				<!-- <i class="map edit to_fade_in">地图</i> -->
+			</div>
+			<!-- <ul class="choose_menu clearFix">
+				<li class="sort">综合排序<i class="choose_arrow"></i></li>
+				<li class="prize">价格星级<i class="choose_arrow"></i></li>
+				<li class="screen">筛选<i class="choose_arrow"></i></li>
+			</ul>
+			<div class="sort_main pull_dowm_menu">
+				<ul class="single_choice">
+					<li class="current sort_synthesize">综合排序</li>
+					<li class="sort_sales">销量最高</li>
+					<li class="sort_prize">价格从高到低</li>
+					<li class="sort_prize">价格从低到高</li>
+				</ul>
+			</div>
+			<div class="pull_dowm_menu prize_main">
+				<div>
+					<dl class="clearFix prize_main_scope single_choice">
+						<dt>价格</dt>
+						<dd class="current">不限</dd>
+						<dd>¥200以下</dd>
+						<dd>¥200-¥500</dd>
+						<dd>¥500-¥1000</dd>
+						<dd>¥1000以上</dd>
+						<dd>自定义</dd>
+					</dl>
+					<dl class="prize_main_star clearFix multiple_choice">
+						<dt>星级</dt>
+						<dd><i class="tick_off"></i>五星</dd>
+						<dd><i class="tick_off"></i>四星</dd>
+						<dd><i class="tick_off"></i>三星</dd>
+						<dd><i class="tick_off"></i>二星</dd>
+					</dl>
+					<em class="affirm">确认</em>
+				</div>
+			</div>
+			<div class="pull_dowm_menu screen_main clearFix">
+				<div class="clearFix">
+					<ul class="menu">
+						<li class="current"><i class="beside_line"></i>热门地点</li>
+						<li><i class="beside_line"></i>特色住宿</li>
+						<li><i class="beside_line"></i>住宿类型</li>
+						<li><i class="beside_line"></i>品牌</li>
+						<li><i class="beside_line"></i>热门设施</li>
+					</ul>
+					<ul class="list_main currentPage single_choice">
+						<li>不限<i class="choose_tick"></i></li>
+						<li>临近地铁<i class="choose_tick"></i></li>
+						<li>市中心<i class="choose_tick"></i></li>
+						<li>北京首都国际机场<i class="choose_tick"></i></li>
+						<li>南苑机场<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>设计酒店<i class="choose_tick"></i></li>
+						<li>中西合璧<i class="choose_tick"></i></li>
+						<li>四合院<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>青旅/客栈<i class="choose_tick"></i></li>
+						<li>经济/连锁<i class="choose_tick"></i></li>
+						<li>民宿B&B<i class="choose_tick"></i></li>
+						<li>公寓<i class="choose_tick"></i></li>
+						<li>高端酒店<i class="choose_tick"></i></li>
+						<li>度假村<i class="choose_tick"></i></li>
+						<li>奢华酒店<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>7天连锁7 Day Inn<i class="choose_tick"></i></li>
+						<li>汉庭Hanting Hotel<i class="choose_tick"></i></li>
+						<li>如家home Inn<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>WIFI<i class="choose_tick"></i></li>
+						<li>停车场<i class="choose_tick"></i></li>
+						<li>接送机<i class="choose_tick"></i></li>
+						<li>电梯<i class="choose_tick"></i></li>
+						<li>餐厅<i class="choose_tick"></i></li>
+						<li>行李寄存<i class="choose_tick"></i></li>
+						<li>中文服务<i class="choose_tick"></i></li>
+						<li>家庭房<i class="choose_tick"></i></li>
+						<li>无烟客房<i class="choose_tick"></i></li>
+						<li>独立卫浴<i class="choose_tick"></i></li>
+						<li>健身中心<i class="choose_tick"></i></li>
+						<li>游泳池<i class="choose_tick"></i></li>
+						<li>SPA<i class="choose_tick"></i></li>
+						<li>无障碍设施<i class="choose_tick"></i></li>
+					</ul>
+					<i class="reset">全部重置</i>
+					<em class="affirm">确认</em>
+				</div>
+			</div> -->
+		</div>
+		<div class="page_main search_main" style="transition: opacity .5s,left .5s;">
+        	<div class="big_pic_list pull_list">
+				<ul id="ulform">
+					<li>
+					</li>
+					<!-- <li>
+						<a href="plan.html">
+						<img class="main_pic" src="/static/weicity/img/nopic_big.png">
+						<i class="collect"></i>
+						<span>¥<strong>999</strong>/起</span>
+						<figure>
+							<figcaption>九溪杨梅岭周末游，为小家庭私人订制</figcaption>
+							<em>简介简介简介简介</em><br>
+							<i class="icon">一家三口</i>
+							<i class="icon">风景党</i>
+						</figure>
+						</a>
+					</li> -->
+				</ul>
+			</div>
+			<div class="morelist">加载更多</div>
+		</div>
+		<!-- <div class="mappage fade_in" style="width: 7.5rem;position: absolute;top: 0;transition: opacity .5s;z-index: -50;opacity: 0;"> -->
+		<!-- <div class="fix_top fix_fromright" style="left: 0;">
+			<div class="hotel_querypage_top top clearFix">
+			<i class="back_orange back backto_indexpage"></i>
+			<span>输入关键字</span> -->
+			<!-- <i class="hotel to_fade_in">列表</i> -->
+			<!-- </div>
+			<ul class="choose_menu clearFix">
+				<li class="sort">综合排序<i class="choose_arrow"></i></li>
+				<li class="prize">价格星级<i class="choose_arrow"></i></li>
+				<li class="screen">筛选<i class="choose_arrow"></i></li>
+			</ul>
+			<div class="sort_main pull_dowm_menu">
+				<ul class="single_choice">
+					<li class="current sort_synthesize">综合排序</li>
+					<li class="sort_sales">销量最高</li>
+					<li class="sort_prize">价格从高到低</li>
+					<li class="sort_prize">价格从低到高</li>
+				</ul>
+			</div>
+			<div class="pull_dowm_menu prize_main">
+				<div>
+					<dl class="clearFix prize_main_scope single_choice">
+						<dt>价格</dt>
+						<dd class="current">不限</dd>
+						<dd>¥200以下</dd>
+						<dd>¥200-¥500</dd>
+						<dd>¥500-¥1000</dd>
+						<dd>¥1000以上</dd>
+						<dd>自定义</dd>
+					</dl>
+					<dl class="prize_main_star clearFix multiple_choice">
+						<dt>星级</dt>
+						<dd><i class="tick_off"></i>五星</dd>
+						<dd><i class="tick_off"></i>四星</dd>
+						<dd><i class="tick_off"></i>三星</dd>
+						<dd><i class="tick_off"></i>二星</dd>
+					</dl>
+					<em class="affirm">确认</em>
+				</div>
+			</div>
+			<div class="pull_dowm_menu screen_main clearFix">
+				<div class="clearFix">
+					<ul class="menu">
+						<li class="current"><i class="beside_line"></i>热门地点</li>
+						<li><i class="beside_line"></i>特色住宿</li>
+						<li><i class="beside_line"></i>住宿类型</li>
+						<li><i class="beside_line"></i>品牌</li>
+						<li><i class="beside_line"></i>热门设施</li>
+					</ul>
+					<ul class="list_main currentPage single_choice">
+						<li>不限<i class="choose_tick"></i></li>
+						<li>临近地铁<i class="choose_tick"></i></li>
+						<li>市中心<i class="choose_tick"></i></li>
+						<li>北京首都国际机场<i class="choose_tick"></i></li>
+						<li>南苑机场<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>设计酒店<i class="choose_tick"></i></li>
+						<li>中西合璧<i class="choose_tick"></i></li>
+						<li>四合院<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>青旅/客栈<i class="choose_tick"></i></li>
+						<li>经济/连锁<i class="choose_tick"></i></li>
+						<li>民宿B&B<i class="choose_tick"></i></li>
+						<li>公寓<i class="choose_tick"></i></li>
+						<li>高端酒店<i class="choose_tick"></i></li>
+						<li>度假村<i class="choose_tick"></i></li>
+						<li>奢华酒店<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>7天连锁7 Day Inn<i class="choose_tick"></i></li>
+						<li>汉庭Hanting Hotel<i class="choose_tick"></i></li>
+						<li>如家home Inn<i class="choose_tick"></i></li>
+					</ul>
+					<ul class="list_main multiple_choice">
+						<li class="clear">清空选项</li>
+						<li>WIFI<i class="choose_tick"></i></li>
+						<li>停车场<i class="choose_tick"></i></li>
+						<li>接送机<i class="choose_tick"></i></li>
+						<li>电梯<i class="choose_tick"></i></li>
+						<li>餐厅<i class="choose_tick"></i></li>
+						<li>行李寄存<i class="choose_tick"></i></li>
+						<li>中文服务<i class="choose_tick"></i></li>
+						<li>家庭房<i class="choose_tick"></i></li>
+						<li>无烟客房<i class="choose_tick"></i></li>
+						<li>独立卫浴<i class="choose_tick"></i></li>
+						<li>健身中心<i class="choose_tick"></i></li>
+						<li>游泳池<i class="choose_tick"></i></li>
+						<li>SPA<i class="choose_tick"></i></li>
+						<li>无障碍设施<i class="choose_tick"></i></li>
+					</ul>
+					<i class="reset">全部重置</i>
+					<em class="affirm">确认</em>
+				</div>
+			</div>
+		</div> -->
+		<!-- <div id="container" style="height: 7.5rem;box-sizing: border-box;"></div>  -->
+		<div class="bottom_menu">
+		</div>
+		<p class="masking" style="display: none;"></p>
+		<script src="https://junoriaz.github.io/WdsApp/js/tool/zepto.min.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/public.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/hotel_list.js"></script>
+		<!-- <script src="/static/weicity/js/tool/zepto.min.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/public.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/hotel_list.js"></script> -->
+	</body>
+	</html>

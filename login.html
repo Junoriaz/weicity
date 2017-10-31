@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<title></title>
+		<!-- <script src="/static/weicity/js/tool/fontAuto.js"></script> -->
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/tool/fontAuto.js"></script>
+		<!-- <script type="text/javascript" src="/static/weicity/js/tool/jquery-3.2.1.min.js"></script> -->
+		<link rel="stylesheet" href="/static/weicity/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style_sass.css">
+	</head>
+	<body>
+		<div class="fix_top ">
+			<div class="loginpage_top top clearFix">
+			<i class="back_orange back" onclick="history.go(-1)";></i>
+			尊网微都市欢迎您
+			</div>
+		</div>
+		<div class="loginpage_main">
+			<ul class="menu clearFix">
+				<li class="current">账号登录</li>
+				<li class="">手机验证码登录</li>
+				<li class="under_line"></li>
+			</ul>
+			<div class="list_main currentPage">
+				<form class="login" conditionPath="login.form" successFun="formObj.success">
+					<ul>
+						<li>
+							<label>
+							<span>账号</span><input type="text" name="phone" class="username" placeholder="输入手机号" phone="true"></label>
+						</li>
+						<li>
+							<label>
+							<span>密码</span><input type="password" name="password" class="password not_null" password="true"><i class="see_or_not cantsee" onclick="inputObj.canseeFun()"></i></label>
+						</li>
+					</ul>
+					<!-- <b class="to_forget_password to_bottompage" bottomPage="forget_pass">忘记密码</b> -->
+					<input type="submit" state="cant_click" value="登录" id="name_login">
+				</form>
+					<!-- <em>第三方账号登录</em>
+					<ul class="login_main_other clearFix">
+						<li><i class="wechatlogin"></i></li>
+						<li><i class="qqlogin"></i></li>
+						<li><i class="weibologin"></i></li>
+					</ul> -->
+					<input type="button" value="手机快速注册" class="quick_register to_bottompage" bottomPage="quick_registerpage">
+			</div>
+			<div class="list_main">
+				<form class="phone_login" conditionPath="login.form" successFun="formObj.success">
+					<ul class="loginlist_main">
+						<li>
+							<label>
+							<span>中国 +86</span><input type="text" name="phone" class="username" placeholder="输入手机号" phone="true"></label>
+						</li>
+						<li>
+							<label>
+							<span>短信验证码</span><input type="text" name="identifyCode" value="" class="not_null" notnull="true"><i class="get_verify" onclick="formObj.checkNumFun(this)" state="can_click">获取验证码</i></label>
+						</li>
+					</ul>
+					<input type="submit" value="登录" id="phone_login" state="cant_click">
+				</form>
+					<!-- <em>第三方账号登录</em>
+					<ul class="login_main_other clearFix">
+						<li><i class="wechatlogin"></i></li>
+						<li><i class="qqlogin"></i></li>
+						<li><i class="weibologin"></i></li>
+					</ul> -->
+					<input type="button" value="手机快速注册" class="quick_register to_bottompage" bottomPage="quick_registerpage">
+			</div>
+			<div class="quick_registerpage bottom_page loginpage_main">
+				<form class="register" conditionPath="register.form" successFun="formObj.registerSuccess">
+				<ul class="loginlist_main">
+					<li>
+						<span>中国 +86</span><input type="text" name="phone" value="" class="username" placeholder="输入手机号" phone="true">
+					</li>
+					<li>
+						<span>短信验证码</span><input type="text" name="identifyCode" value="" class="vertifynum not_null" notnull="true"><i class="get_verify"  onclick="formObj.checkNumFun(this)" state="can_click">获取验证码</i>
+					</li>
+					<!-- <li>
+						<span>用户名</span><input type="text" name="account" value="">
+					</li> -->
+					<li>
+						<span>密码</span><input type="password" name="password" value="" class="password" placeholder="6-16位数字或字母" password="true">
+						<i class="see_or_not cantsee" onclick="inputObj.canseeFun()"></i>
+					</li>
+				</ul>
+				<b class="agreement">点击完成即同意<strong class="to_bottompage" bottompage="register_deal">《微都市用户注册协议》</strong>,<strong class="to_bottompage" bottompage="privacy_deal">《微都市用户隐私权保护声明》</strong></b>
+				<input type="submit" name="" value="完成注册,进入微都市" id="submit_register">
+				</form>
+			</div>
+			<div class="forget_pass bottom_page loginpage_main">
+				<form conditionPath="" successFun="formObj.passSuccess">
+				<ul class="loginlist_main">
+					<li>
+						<span>中国 +86</span>
+						<input type="text" name="phone" value="" class="username" placeholder="输入手机号" phone="true">
+					</li>
+					<li>
+						<span>短信验证码</span><input type="text" name="identifyCode" value="" class="vertifynum not_null" notnull="true"><i class="get_verify"  onclick="formObj.checkNumFun(this)" state="can_click">获取验证码</i>
+					</li>
+					<li>
+						<span>新密码</span>
+						<input type="password" name="password" value="" class="password" placeholder="6-16位数字或字母" password="true">
+						<i class="see_or_not cantsee" onclick="inputObj.canseeFun()"></i>
+					</li>
+				</ul>
+				<input type="submit" value="确认更改密码" id="submit_register">
+				</form>
+			</div>
+			
+		</div>
+		<div class="bottom_page register_deal deal">
+		</div>
+		<div class="bottom_page privacy_deal deal">
+		</div>
+		<div class="bottom_menu">
+		</div>
+		<script src="https://junoriaz.github.io/WdsApp/js/tool/zepto.min.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/tool/verfication.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/public.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/login.js"></script>
+		<!-- <script src="/static/weicity/js/tool/zepto.min.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/tool/verfication.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/public.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/login.js"></script> -->
+	</body>
+</html>

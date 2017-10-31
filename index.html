@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta http-equiv="Expires" content="0"/>
+		<title></title>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/tool/fontAuto.js"></script>
+		<!-- <script src="/static/weicity/js/tool/fontAuto.js"></script> -->
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/style_sass.css">
+		<link rel="stylesheet" type="text/css" href="/static/weicity/css/tools/index-swiper.css">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=srocW7CMkQdkbazSA5kjcxDgFYO1YfMS"></script>
+	</head>
+	<body class="index">
+		<div class="fix_top index_top">
+			<img src="/static/weicity/img/index_logo.png" class="logo">
+			<img src="/static/weicity/img/index_word.png" class="word">
+		</div>
+		<div class="indexpage">
+			<!-- <img class="refresh" src="/static/weicity/img/refresh.jpg"/> -->
+			<div class="index_location">
+				<img src="/static/weicity/img/index_hangzhou.png"/>
+				<span>我在<strong></strong></span>
+			</div>
+			<!-- <div class="index_top">
+				<img class="logo" src="/static/weicity/img/index_logo.png"/>
+				<a href="javascript:window.location.href=pathObj.setJsonFun('hotel_list.html','/shopHotel/unconfine/hotelList.form');"> --> <!-- /static/shopHotel/hotelList.form -->
+					<!-- <div class="index_search">
+						<img src="/static/weicity/img/search.jpg"/>
+					</div> -->
+				<!-- </a> -->
+				<!-- <a href="notice.html" style="display: inline-block;"><i class="message"></i></a> -->
+			<!-- </div> -->
+			<!-- <div class="index_lately">
+				<ul class="clearFix">
+					<li>日本</li>
+					<li>重庆</li>
+					<li>浙江</li>
+				</ul>
+			</div> -->
+			<div class="index_menu">
+				<ul class="clearFix">
+					<li><a href="javascript:window.location.href=pathObj.setJsonFun('trip_list.html','/shopTrip/unconfine/tripList.form');"><i class="hotellist hotel"></i>微行程</a></li>
+					<li><a href="javascript:window.location.href=pathObj.setJsonFun('hotel_list.html','/shopHotel/unconfine/hotelList.form');"><i class="strategy"></i>住宿</a></li>
+					<li><a href="javascript:window.location.href=pathObj.setJsonFun('catering_list.html','/shopCatering/unconfine/cateringList.form');"><i class="airticket"></i>吃喝</a></li>
+					<li><a href="javascript:window.location.href=pathObj.setJsonFun('play_list.html','/shopPlay/unconfine/playList.form');"><i class="localplay"></i>玩乐</a></li>
+					<!-- <li class="travelnotes to_rightpage"></li> -->
+					<!-- <li class="travelvedio to_rightpage"></li> -->
+					<!-- <li class="ask to_rightpage"></li> -->
+					<!-- <li class="wengweng to_rightpage"></li> -->
+				</ul>
+			</div>
+			<div class="index_theme">
+				<!-- <div class="to_hot_city" style="font-size: .6rem;text-align: center;line-height: 1rem;">
+					<img src="/static/weicity/img/gotocity.png" style="width: 100%;">
+				</div> -->
+				<!-- <div class="hot_city">
+					<ul class="clearFix">
+						<li class="hotellist to_rightpage"><img src="/static/weicity/img/hot_city/beijing.png"><span>北京</span></li>
+						<li class="hotellist to_rightpage"><img src="/static/weicity/img/hot_city/shanghai.png"><span>上海</span></li>
+						<li class="hotellist to_rightpage"><img src="/static/weicity/img/hot_city/hangzhou.png"><span>杭州</span></li>
+					</ul>
+				</div> -->
+				<div class="swiper-container index_theme_active" style="margin-top: .1rem;">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="/static/weicity/img/gotocity.png"></div>
+						<div class="swiper-slide"><img src="/static/weicity/img/theme/theme1.png"></div>
+						<div class="swiper-slide"><img src="/static/weicity/img/theme/theme2.png"></div>
+					</div>
+					<!-- 如果需要分页器 -->
+					<div class="swiper-pagination"></div>
+				</div>
+				<!-- <ul class="index_theme_active">
+					<li><img src="/static/weicity/img/theme/summer.png"></li>
+					<li><img src="/static/weicity/img/theme/double11.png"></li>
+				</ul> -->
+			</div>
+			<div class="index_recommend">
+				<!-- <h3>热门目的地</h3>
+				<ul class="hot_city">
+					<li class="hotellist to_rightpage"><img src="/static/weicity/img/hot_city/beijing.png"><span>北京</span></li>
+					<li class="hotellist to_rightpage"><img src="/static/weicity/img/hot_city/shanghai.png"><span>上海</span></li>
+					<li class="hotellist to_rightpage"><img src="/static/weicity/img/hot_city/hangzhou.png"><span>杭州</span></li>
+				</ul> -->
+				
+				<figure class="index_recommend_main index_plan_list" style="margin-top: 0;">
+					<figcaption class="main_title">推荐行程</figcaption>
+					<figcaption class="main_title2">微都市带您发现周边美好</figcaption>
+					<ul>
+						<!-- <li>
+							<a href="#">
+							<div class="index_recommend_pic">
+								<img src="/static/weicity/img/nopic.png">
+								
+							</div>
+							<strong>标题标题标题标题</strong>
+							<span>人均:999元</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							<div class="index_recommend_pic">
+								<img src="/static/weicity/img/nopic.png">
+								
+							</div>
+							<strong>标题标题标题标题</strong>
+							<span>人均:999元</span>
+							</a>
+						</li> -->
+					</ul>
+				</figure>
+				
+				<figure class="index_recommend_main index_live_list">
+				<figcaption class="main_title">推荐住宿</figcaption>
+				<figcaption class="main_title2">睡好觉才有力气玩</figcaption>
+					<ul class="clearFix">
+					</ul>
+				</figure>
+				
+				<figure class="index_recommend_main index_eat_list">
+				<figcaption class="main_title">推荐美食</figcaption>
+				<figcaption class="main_title2">我要吃我任性</figcaption>
+					<ul class="clearFix">
+						<!-- <li>
+							<a href="#">
+							<div class="index_recommend_pic">
+								<img src="/static/weicity/img/nopic.png">
+								
+							</div>
+							<strong>标题标题标题标题</strong>
+							<span>人均:999元</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							<div class="index_recommend_pic">
+								<img src="/static/weicity/img/nopic.png">
+								
+							</div>
+							<strong>标题标题标题标题</strong>
+							<span>人均:999元</span>
+							</a>
+						</li> -->
+					</ul>
+				</figure>
+				
+				<figure class="index_recommend_main index_play_list">
+				<figcaption class="main_title">推荐游玩</figcaption>
+				<figcaption class="main_title2">玩的开心才是王道</figcaption>
+					<ul class="clearFix">
+						<!-- <li>
+							<a href="#">
+							<div class="index_recommend_pic">
+								<img src="/static/weicity/img/list_img.jpg">
+								<em>¥<b>999</b>/人</em>
+							</div>
+							<strong>标题标题标题标题</strong>
+							<i>亲子</i><i>情侣</i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							<div class="index_recommend_pic">
+								<img src="/static/weicity/img/nopic.png">
+								<em>¥<b>999</b>/人</em>
+							</div>
+							<strong>标题标题标题标题</strong>
+							<i>亲子</i><i>情侣</i>
+							</a>
+						</li> -->
+					</ul>
+				</figure>
+				
+				<!-- <figure class="hotel_querypage_main hotel_message big_pic_list">
+				<figcaption class="main_title">吃喝玩乐</figcaption>
+				<figcaption class="main_title2">有吃有住有开心</figcaption>
+					<ul>
+						<li sales='15'>
+							<a href="dylc/index.html">
+							<img class="main_pic" src="/static/weicity/img/nopic_big.png">
+							<i class="collect"></i>
+							<span>¥<strong>999</strong>/晚</span>
+
+							<figure>
+								<figcaption>地址位于九溪杨梅岭。场馆结合书吧加住宿形式。</figcaption>
+								<em>整套出租/2张床/宜住4人-1点评</em><br>
+								<i class="real_photo"></i>
+								<i class="real_check"></i>
+							</figure>
+							</a>
+						</li>
+					</ul>
+				</figure> -->
+				<!-- <span class="morelist">新的旅程正在加载</span> -->
+			</div>
+			<div class="bottom_menu">
+			</div>
+		</div>
+		<div class="loadPage">
+			<img src="/static/weicity/img/logo_icon.png" class="icon">
+			<img src="/static/weicity/img/logo_word.png" class="word">
+		</div>
+		<div id="locationcity"></div>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/tool/zepto.min.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/tool/swiper-3.4.2.min.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/public.js"></script>
+		<script type="text/javascript" src="https://junoriaz.github.io/WdsApp/js/index.js"></script>
+		<!-- <script src="/static/weicity/js/tool/zepto.min.js"></script>
+		<script type="text/javascript" src="/static/weicity/js/tool/swiper-3.4.2.min.js"></script>
+		<script type="text/javascript" src='/static/weicity/js/public.js'></script>
+		<script type="text/javascript" src="/static/weicity/js/index.js"></script> -->
+	</body>
+</html>
