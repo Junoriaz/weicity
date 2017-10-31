@@ -1,0 +1,22 @@
+{
+	"111":{
+		"title":"豪华大床房豪华大床房豪华大床房豪",
+		"infoPrice":"11500",
+		"roomImgUrl":"../../static/weicity/img/room/000/form_pic.png"
+	},
+	"222":{
+		"title":"豪华单人间",
+		"infoPrice":"500",
+		"roomImgUrl":"../../static/weicity/img/room/000/form_pic.png"
+	},
+	"333":{
+		"title":"温馨大床房",
+		"infoPrice":"500",
+		"roomImgUrl":"../../static/weicity/img/room/000/form_pic.png"
+	},
+	"444":{
+		"title":"温馨单人间",
+		"infoPrice":"500",
+		"roomImgUrl":"../../static/weicity/img/room/000/form_pic.png"
+	}
+}

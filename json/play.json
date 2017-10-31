@@ -1,0 +1,28 @@
+{"data":
+	[
+		{
+			"playId":"123456789",
+			"imgaddr":"../static/img/nopic.png",
+			"playName":"玩乐标题",
+			"content":"玩乐简介简介简介简介"
+		},
+		{
+			"playId":"123456789",
+			"imgaddr":"../static/img/nopic.png",
+			"playName":"玩乐标题",
+			"content":"玩乐简介简介简介简介"
+		},
+		{
+			"playId":"123456789",
+			"imgaddr":"../static/img/nopic.png",
+			"playName":"玩乐标题",
+			"content":"玩乐简介简介简介简介"
+		},
+		{
+			"playId":"123456789",
+			"imgaddr":"../static/img/nopic.png",
+			"playName":"玩乐标题",
+			"content":"玩乐简介简介简介简介"
+		}
+	]
+}

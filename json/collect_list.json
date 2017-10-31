@@ -1,0 +1,34 @@
+{
+	"data":[
+		{	
+			"collectId":"0001",
+			"hotelId":"11111111111",
+			"hotelName":"酒店名酒店名酒店名酒店名酒店名1",
+			"livePrice":"100",
+			"ctime":"2017-08-26 13:55",
+			"address":"杭州市西湖区西溪湿地",
+			"vrUrl":"http://192.168.0.41:9999/static/brxms/",
+			"defaultImgThumbUrl":"/static/weicity/img/000.png"
+		},
+		{
+			"collectId":"0002",
+			"hotelId":"22222",
+			"hotelName":"酒店名酒店名酒店名酒店名酒店名2",
+			"livePrice":"100",
+			"ctime":"2017-08-26 13:55",
+			"address":"杭州市西湖区西溪湿地",
+			"vrUrl":"http://192.168.0.41:9999/static/brxms/",
+			"defaultImgThumbUrl":"/static/weicity/img/000.png"
+		},
+		{
+			"collectId":"0003",
+			"hotelId":"33333333",
+			"hotelName":"酒店名酒店名酒店名酒店名酒店名3",
+			"livePrice":"100",
+			"ctime":"2017-08-26 13:55",
+			"address":"杭州市西湖区西溪湿地",
+			"vrUrl":"http://192.168.0.41:9999/static/brxms/",
+			"defaultImgThumbUrl":"/static/weicity/img/000.png"
+		}
+	]
+}

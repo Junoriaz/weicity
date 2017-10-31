@@ -1,0 +1,37 @@
+{"recommend":
+	[
+		{
+			"toURL":"plan.html",
+			"imgURL":"../static/img/nopic_big.png",
+			"productsName":"九溪杨梅岭周末游，为小家庭私人订制",
+			"productsInfo":"3人住宿/家庭套餐/爬山",
+			"productIcon":{
+							"1":"一家三口",
+							"2":"风景党"
+						},
+			"productsPrice":"999"
+		},
+		{
+			"toURL":"plan.html",
+			"imgURL":"../static/img/nopic_big.png",
+			"productsName":"九溪杨梅岭周末游，为小家庭私人订制",
+			"productsInfo":"3人住宿/家庭套餐/爬山",
+			"productIcon":{
+							"1":"一家三口",
+							"2":"风景党"
+						},
+			"productsPrice":"999"
+		},
+		{
+			"toURL":"plan.html",
+			"imgURL":"../static/img/nopic_big.png",
+			"productsName":"九溪杨梅岭周末游，为小家庭私人订制",
+			"productsInfo":"3人住宿/家庭套餐/爬山",
+			"productIcon":{
+							"1":"一家三口",
+							"2":"风景党"
+						},
+			"productsPrice":"999"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{"data":
+	[
+		{
+			"cateringVr":"http://192.168.0.41:9999/brxms/",
+			"cateringId":"123456789",
+			"cateringImg":"../static/img/nopic.png",
+			"cateringName":"餐厅名称",
+			"liveScore":"4.7",
+			"cateringInfo":"简介简介简介简介"
+		},
+		{
+			"cateringVr":"http://192.168.0.41:9999/brxms/",
+			"cateringId":"123456789",
+			"cateringImg":"../static/img/nopic.png",
+			"cateringName":"餐厅名称",
+			"liveScore":"4.7",
+			"cateringInfo":"简介简介简介简介"
+		},
+		{
+			"cateringVr":"http://192.168.0.41:9999/brxms/",
+			"cateringId":"123456789",
+			"cateringImg":"../static/img/nopic.png",
+			"cateringName":"餐厅名称",
+			"liveScore":"4.7",
+			"cateringInfo":"简介简介简介简介"
+		},
+		{
+			"cateringVr":"http://192.168.0.41:9999/brxms/",
+			"cateringId":"123456789",
+			"cateringImg":"../static/img/nopic.png",
+			"cateringName":"餐厅名称",
+			"liveScore":"4.7",
+			"cateringInfo":"简介简介简介简介"
+		}
+	]
+}

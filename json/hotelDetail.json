@@ -1,0 +1,36 @@
+{
+	"data":{
+		"title":"青岛地铁旁豪华酒店公寓",
+		"roomImgUrl":["../static/img/hotel/hotel1/000.png","../static/img/hotel/hotel1/001.png","../static/img/hotel/hotel1/002.png"],
+		"subtitle":"满7天9.0折，满30天8.0折",
+		"roomArgument":{
+			"可住人数":"4",
+			"楼层":"3",
+			"窗户":"有窗",
+			"床型":"双人*1",
+			"卫生间":"独立*1",
+			"酒店类型":"民宿"
+		},
+		"roomPrice":580,
+		"description":"酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介酒店简介",
+		"liveRule":{
+			"reservePrice":0,
+			"premium":0,
+			"depostit":100,
+			"retreatRule":"不支持退款",
+			"elsePay":"无额外费用",
+			"inTime":"14:00之后",
+			"outTime":"12:00之前",
+			"receptionTime":"全天",
+			"receptionOthers":"接待",
+			"limitDays":"1天",
+			"maxDays":"不限",
+			"invoice":"nu"
+		},
+		"abolishRule":"入住日提前2天18:00前免费取消，当前已过最晚免费取消时间",
+		"facility":["wifi","elevator","shower","computer","blower","park","waterheater"],
+		"dailyUse":["toiletRequist"],
+		"foodDrink":["water"],
+		"server":["breakfast"]
+	}
+}

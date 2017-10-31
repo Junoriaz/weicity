@@ -1,0 +1,11 @@
+{
+	"hotelName":"西湖度假酒店",
+	"hotelInfoName":"温馨大床房",
+	"liveTime":"2017-7-19",
+	"leaveTime":"2017-7-20",
+	"liveDays":"1",
+	"payFee":"6006",
+	"data":{
+		"authUrl":"hotel_pay.html"
+	}
+}
