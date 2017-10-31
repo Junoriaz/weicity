@@ -1,5 +1,5 @@
-// var debug=true;
-// var imgAddress='http://192.168.0.49//image/';
+//var debug=true;
+//var imgAddress='http://192.168.0.49//image/';
 //var imgAddress='http://a.vrol.cn//image//';
 var imgError=function(thisNode){
 	thisNode.src='/static/weicity/img/no_pic.jpg';
@@ -712,7 +712,7 @@ var addHtmlObj={					//加载公共的html
 		});
 	}
 };
-var cookieObj={				//cookie对象
+var cookieObj={						//cookie对象
 	setCookie:function(name,value,expiredays){
 		var _this=this;
 		var exdate=new Date()

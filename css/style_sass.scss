@@ -290,8 +290,8 @@ input[type=search]{-webkit-appearance: none;}
 			em{line-height: .35rem;display: block;color: #CBCACA;}
 			strong{color: #fa9e9e;font-weight: 400;}
 			b{
-				border: 0 none;border-radius: .1rem;background:$maincolor;color: #fff;line-height: .27rem;width: .65rem;text-align: center;padding: 0 auto;display: block;float: right;font-weight: 400;padding: .06rem 0;cursor:pointer;margin-top: .01rem;border: 1px solid $maincolor;
-				&.cancle{background: #fff;color: #807F7F;border: 1px solid #807F7F;margin-right: .04rem;}
+				border: 0 none;border-radius: .1rem;background:$maincolor;color: #fff;line-height: .27rem;width: .65rem;text-align: center;padding: 0 auto;display: block;float: right;font-weight: 400;padding: .06rem 0;cursor:pointer;margin-top: .01rem;border: 1px solid $maincolor;margin-left: .04rem;
+				&.cancle{background: #fff;color: #807F7F;border: 1px solid #807F7F;}
 			}
 			small{color: #ADADAD;display: block;text-align: center;}
 		} 
